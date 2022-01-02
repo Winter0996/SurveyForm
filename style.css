@@ -1,0 +1,46 @@
+body {
+font-family: 'Playfair Display', serif;
+margin: 0 auto;
+width: 960px;
+background-color:rgb(102,95,95);
+}
+header {
+  background-image: url("header-image.jpg");
+  height: 100px;
+  margin-bottom: 70px;
+}
+h1 {
+  color:rgb(204,201,201);
+  background-color: rgb(24,23,23); 
+  text-align: center;
+  position:relative; top: 100px;
+  
+  
+}
+aside {
+  float:right;
+  background-color: rgb(24,23,23);
+  padding: 5px;
+  border-radius: 10px;
+}
+fieldset {
+  background-color: rgb(102,95,95);
+  border: 1px solid whitesmoke;
+  margin: 2em 0;
+  padding: 1em;
+}
+legend {
+  font-size: 20px;
+  position: relative;
+  top: 6px;
+  color: rgb(24,23,23);
+}
+.button {
+  background-color: rgb(24,23,23);
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+

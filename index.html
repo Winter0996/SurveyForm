@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <title>Computer Science Survey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <header>
+      <h1>Computer Science Survey</h1>
+    </header>
+    <aside>
+        <figure>
+          <img src="survey-image/laptop-image2.jpg" alt="laptop with code"/>
+        </figure>
+      </aside>
+      <form action="CS-Survey.php" method="post">
+        <br/>
+        <fieldset>
+          <legend>Personal Information:</legend><br/>
+          Your Name<br/>
+          <input type="text" name="name" required size="40"/>
+          <br/><br/>
+          Email Address<br/>
+          <input type="email" name="email" required placeholder="enter a valid email address" size="40"/>
+          <br/><br/>
+          Your Age<br/>
+          <input max="100" min="1" name="age" step="1"/> 
+        <br/><br/>
+        </fieldset>
+        <fieldset>
+        <legend>Main Survey Questions:</legend><br/>
+        Which of the following best describes your current role?<br/>
+        <select name="role">
+          <option value="student">Student Enrolled</option>
+          <option value="working">Full-Time Job</option>
+          <option value="self">Freelancer</option>
+          <option value="other">Other</option>
+          </select>
+          <br/><br/>
+        Where did you choose to pick up your skills as a Computer Scientist?<br/>
+        <select name="where">
+          <option value="online">Online Courses/Bootcamps</option>
+          <option value="college">University/Institution</option>
+          <option value="book">Textbooks</option>
+          <option value="resource">Other Online Resources</option>
+          </select>
+          <br/><br/>
+          If you choose "University/Institution", please type the name of the Institution you attended.<br/> 
+          <input type="education" name="college" size="40"/>
+          <br/><br/>
+          Which of the following best descibes the position you'd like to land or are currently in?<br/>
+          <select name="job">
+          <option value="software">Software Engineer/Developer</option>
+          <option value="dev">Full-Stack Developer</option>
+          <option value="machine">Machine Learning Engineer</option>
+          <option value="security">Information Security Analyst</option>
+          <option value="data">Database Administrator</option>
+          <option value="network">Network Architect</option>
+          <option value="forensic">Forensic Computer Analyst</option>
+          <option value="another">Other</option>
+          </select>
+          <br/><br/>
+          Any other comments or concerns relating to computer science?<br/>
+          <textarea name="comments" cols="40" rows="7"></textarea>
+          <br/><br/>
+          After completing the survey, hit the submission button below.<br/>
+          <br/>
+          <input type="submit" value="Submit" class="button"> 
+          </fieldset>
+        </form>
+        </body>
+        </html>
